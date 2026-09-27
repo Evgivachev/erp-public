@@ -3,6 +3,7 @@
 [![Revit](https://img.shields.io/badge/Revit-2023%20%7C%202024-orange.svg)](https://www.autodesk.com/products/revit)
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-blue.svg)](https://dotnet.microsoft.com/download/dotnet-framework)
 [![GitHub release](https://img.shields.io/github/v/release/Evgivachev/erp-public)](https://github.com/Evgivachev/erp-public/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <p align="center">
   <img src="./assets/readme/hero.svg" width="100%" alt="ElectricityRevitPlugin — электрика в Revit кнопкой на ленте ERP или словами в диалоге с Claude через MCP, который спрашивает подтверждение перед каждым изменением модели">
@@ -74,6 +75,9 @@ Claude постепенно получает всё больше «рук» дл
 3. Откройте Revit — на ленте появится вкладка **ERP**.
 
 Хотите сразу подключить ИИ — переходите к [настройке MCP](docs/mcp-setup.md).
+Не хотите разбираться сами — пришлите ссылку на эту страницу в чат с Claude
+Code и попросите подключить: там есть раздел специально для Claude, он
+справится сам.
 
 ## Документация
 
@@ -85,3 +89,7 @@ Claude постепенно получает всё больше «рук» дл
 ## Поддержка
 
 Нашли баг или есть идея — [заведите issue](../../issues).
+
+## Лицензия
+
+MIT — см. [LICENSE](LICENSE).
