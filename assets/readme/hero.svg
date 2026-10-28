@@ -33,15 +33,15 @@
     <!-- metadata chips -->
     <g transform="translate(0 206)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" fill="#C4CEDD">
       <g>
-        <rect x="0" y="0" width="150" height="34" rx="10" fill="#152342" stroke="#28395C"/>
+        <rect x="0" y="0" width="186" height="34" rx="10" fill="#152342" stroke="#28395C"/>
         <text x="14" y="22">Revit 2023 · 2024</text>
       </g>
-      <g transform="translate(160 0)">
-        <rect x="0" y="0" width="176" height="34" rx="10" fill="#152342" stroke="#28395C"/>
+      <g transform="translate(196 0)">
+        <rect x="0" y="0" width="214" height="34" rx="10" fill="#152342" stroke="#28395C"/>
         <text x="14" y="22">Вкладка ERP на ленте</text>
       </g>
       <g transform="translate(0 46)">
-        <rect x="0" y="0" width="252" height="34" rx="10" fill="#16292B" stroke="#245257"/>
+        <rect x="0" y="0" width="280" height="34" rx="10" fill="#16292B" stroke="#245257"/>
         <text x="14" y="22" fill="#7FDCEA">MCP + Claude · спросит «да»</text>
       </g>
     </g>
