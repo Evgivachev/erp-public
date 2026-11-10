@@ -1,0 +1,73 @@
+name: Ошибка в плагине
+description: Команда не работает, плагин падает или ведёт себя не так, как ожидалось
+title: "[Ошибка] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что сообщаете. Чем точнее шаги, тем быстрее получится воспроизвести.
+
+        Если проект сделан не по шаблону ЭОМ, часть команд недоступна по определению —
+        отметьте это ниже, чтобы не искать причину там, где её нет.
+
+  - type: dropdown
+    id: revit
+    attributes:
+      label: Версия Revit
+      options:
+        - Revit 2023
+        - Revit 2024
+        - Другая (напишите в описании)
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Версия плагина
+      description: Видна в окне «Настройки → О программе»
+
+  - type: dropdown
+    id: template
+    attributes:
+      label: Проект создан по шаблону ЭОМ?
+      options:
+        - Да, по шаблону ЭОМ
+        - Нет, свой шаблон
+        - Не знаю
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что делали
+      placeholder: |
+        1. Открыл проект …
+        2. Нажал «…»
+        3. Получил …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидали и что получили
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Текст ошибки или строки журнала
+      description: Путь к журналу показан в окне «Настройки → О программе». Файлы проектов заказчика прикладывать не нужно.
+      render: text
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Подтверждение
+      options:
+        - label: В обращении нет данных заказчика — имён объектов и названий файлов проектов
+          required: true
