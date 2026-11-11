@@ -1,0 +1,53 @@
+name: Пожелание или новая команда
+description: Чего не хватает в плагине и какую работу он мог бы забрать
+title: "[Идея] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишите задачу, а не только кнопку: что приходится делать руками и сколько
+        это занимает. Так видно, что автоматизировать в первую очередь.
+
+  - type: textarea
+    id: task
+    attributes:
+      label: Какую работу нужно делать руками
+      placeholder: Например — после каждой правки схемы пересчитывать кабельный журнал в Excel
+    validations:
+      required: true
+
+  - type: textarea
+    id: now
+    attributes:
+      label: Как это делается сейчас
+      description: Командами Revit, в Excel, в другой программе — и сколько времени занимает
+
+  - type: textarea
+    id: wish
+    attributes:
+      label: Как должно работать в плагине
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Раздел
+      options:
+        - Щиты и цепи
+        - Освещение
+        - Схемы и документация
+        - Спецификации и экспорт
+        - Работа через ИИ (MCP)
+        - Установка и обновление
+        - Другое
+    validations:
+      required: true
+
+  - type: dropdown
+    id: revit
+    attributes:
+      label: Версия Revit
+      options:
+        - Revit 2023
+        - Revit 2024
+        - Другая

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Установка, требования, удаление
+    url: https://github.com/Evgivachev/erp-public/blob/main/docs/installation.md
+    about: Что нужно для работы плагина и как его обновить или удалить
+  - name: Подключение ИИ через MCP
+    url: https://github.com/Evgivachev/erp-public/blob/main/docs/mcp-setup.md
+    about: Пошаговая настройка Claude и разбор типичных ошибок подключения
